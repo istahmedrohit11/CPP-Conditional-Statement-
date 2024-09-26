@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout<<"Enter Marks: ";
+    cin>>n;
+    if(n>=90){
+        cout<<"You Got A ";
+    }else if(n>=80 && n<90){
+        cout<<"You got B";
+    }else if(n<80){
+        cout<<"You got nothing";
+    }else{
+        cout<<"Very sad ";
+    }
+    return 0;
+}
