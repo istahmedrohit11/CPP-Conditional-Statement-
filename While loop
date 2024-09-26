@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout<<"how many numbers do you want";
+    cin>>n;
+    int count = 1;
+    while(count<=n){
+        cout<< count<<" ";
+        count++;
+    }
+    return 0;
+}
+ 
