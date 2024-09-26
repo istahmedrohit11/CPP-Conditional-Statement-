@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,sum=0;
+    int i;
+    cout<<"how many numbers do you want: ";
+    cin>>n;
+    for(i=1;i<=n;i++){
+        sum=sum+i;
+        if(i == 5){
+            break;
+        }
+    }
+    cout<<"sum is:"<<sum;
+    return 0;
+}
+  
